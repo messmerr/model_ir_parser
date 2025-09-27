@@ -1,0 +1,43 @@
+{
+  "_name_or_path": "/content/drive/MyDrive/models/9G4B",
+  "architectures": [
+    "FM9GForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "auto_map": {
+    "AutoConfig": "configuration_fm9g.FM9GConfig",
+    "AutoModel": "modeling_fm9g.FM9GModel",
+    "AutoModelForCausalLM": "modeling_fm9g.FM9GForCausalLM",
+    "AutoModelForSeq2SeqLM": "modeling_fm9g.FM9GForCausalLM",
+    "AutoModelForSequenceClassification": "modeling_fm9g.FM9GForSequenceClassification"
+  },
+  "bos_token_id": 1,
+  "dim_model_base": 256,
+  "eos_token_id": [
+    2,
+    73440
+  ],
+  "hidden_act": "silu",
+  "hidden_size": 2560,
+  "initializer_range": 0.1,
+  "intermediate_size": 6400,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "fm9g",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 62,
+  "num_key_value_heads": 4,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "scale_depth": 1.4,
+  "scale_emb": 12,
+  "sliding_window": null,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.44.0",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 73448
+}
